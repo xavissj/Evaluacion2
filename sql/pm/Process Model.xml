@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E6ADAC6D-F68A-B24D-5899-15712837E104">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-22 17:40:59 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

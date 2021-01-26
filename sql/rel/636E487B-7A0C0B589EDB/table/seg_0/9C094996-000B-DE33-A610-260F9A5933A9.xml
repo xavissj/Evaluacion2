@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C094996-000B-DE33-A610-260F9A5933A9" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>A06E7C66-0E49-B354-FCE5-3C8E26147391</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NRO_CLIENTE" id="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>D8616C33-824B-0D3D-B626-A7315BEAED06</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMRUN" id="E462CFA7-CA83-D6FB-15F3-26CBF1F84083">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>11967F5F-E9CE-6740-CF37-9282D4C689E1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DVRUN" id="35E9497D-29E6-2959-F277-D897D7D8B8FF">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>9415E65A-940F-B03C-EB4D-7D76F0315AC0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNOMBRE" id="36B56AEF-B4B8-DA68-C703-8211E064BEA9">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>07BF6CFC-EC94-E4D8-457D-CEE66FEF08D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNOMBRE" id="7D34340D-F5CF-56F1-B07E-7A0F85E480B7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>CACF7281-C67C-91A0-0C95-20E22FC4F65B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPATERNO" id="EEF6A2C8-EDD3-59F2-C22A-CBA541C0C7F7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>968C5131-36D3-9339-12B6-60231269F440</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APMATERNO" id="DA18A355-743C-4769-2CAD-A2377EDF46AB">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>C46D2B3D-CE0E-8C37-1D94-46B632AA2E38</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="49AB183E-D487-4B54-762D-349401C30F6E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>2FDBEA87-5223-0B5D-2D96-1BE7A31A7C16</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INSCRIPCION" id="EC428C3E-808A-C690-3176-EBF5DB129B55">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>4934FEA0-3F7E-AB71-986D-AC88073D84A6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="6F0F91AB-BDA8-7AAA-3B61-BC74979E522B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>3FF244AE-622D-494A-D957-EDBCF3771BEF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FONO_CONTACTO" id="1BD5AC35-6423-B072-45E7-A2BBCF08815F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>3DF21B81-0F47-6C95-7E9B-0B8F03D3F073</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="B3393057-F0D8-35DC-2A82-9539E31140F9">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>02F52926-B479-77AC-DB66-29695E207AB5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REGION" id="46FD6F41-A827-10A5-6156-CEA3F8FCD46B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>86C18646-88EF-75F2-E290-9B8BB4B8BDDD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F084C3-0502-0D3C-8FBA-E3F52A432CCA" referredColumn="D1CCC2BA-7739-FC53-0CC2-68496C52D672"/>
+</associations>
+</Column>
+<Column name="COD_PROVINCIA" id="74519CF1-8E51-8776-1B63-CDA6C75B7A3F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>BE6A01F4-C32F-D09E-8659-FA0E956DDBC5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F084C3-0502-0D3C-8FBA-E3F52A432CCA" referredColumn="7F27655E-2C27-A265-3272-03DA37D83D1E"/>
+</associations>
+</Column>
+<Column name="COD_COMUNA" id="DBBB4E35-855F-C005-801D-E7E6E0A28A9E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>CE8E729F-AF4A-8200-4E58-0626A6AB6EF3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F084C3-0502-0D3C-8FBA-E3F52A432CCA" referredColumn="C4A48189-945C-B34D-DF80-B092880E90D4"/>
+</associations>
+</Column>
+<Column name="COD_PROF_OFIC" id="52972DB6-5816-5750-C8A9-7CD66666A402">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>FD31B070-0176-97D4-679D-7BAE2130AC5A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E633D51-44E7-CEFD-2EA0-525C5DF7EA0B" referredColumn="A057CFDA-CB87-D14A-BD57-1FCE0DAD32CC"/>
+</associations>
+</Column>
+<Column name="COD_TIPO_CONTRATO" id="549D6E24-3A54-EF97-D113-019D776A8B50">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>1B76BABB-4E43-FE06-77DB-37723C325305</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCA829D-49B8-2034-F567-B29E78BD4AEE" referredColumn="A5AFFD62-9577-0620-B507-92D2881EF0C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84792771-D08D-ED43-1047-7AA311B2BF7E" name="PK_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>B218E38E-6DB5-D73A-B104-E07299D35871</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A14CFD6-4B1E-424C-DC7C-DFA2C36359F1" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>DFD4955B-BF56-6D03-3CDA-DBDDCEB90E96</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="812A25FB-BD58-A5AB-6C78-025FEDFBF042" name="FK_CLIENTE_COMUNA">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46FD6F41-A827-10A5-6156-CEA3F8FCD46B"/>
+<colUsage columnID="74519CF1-8E51-8776-1B63-CDA6C75B7A3F"/>
+<colUsage columnID="DBBB4E35-855F-C005-801D-E7E6E0A28A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F540493-4CE8-D3DD-CAC0-8B3D1BC2F554" name="FK_CLIENTE_PROFESION_OFICIO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52972DB6-5816-5750-C8A9-7CD66666A402"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCDE06E5-E509-2F20-C935-A96CE47F5079" name="FK_CLIENTE_TIPO_CONTRATO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549D6E24-3A54-EF97-D113-019D776A8B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

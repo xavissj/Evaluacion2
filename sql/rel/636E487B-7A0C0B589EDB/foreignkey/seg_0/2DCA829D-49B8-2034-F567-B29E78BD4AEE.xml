@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DCA829D-49B8-2034-F567-B29E78BD4AEE" containerWithKeyObject="9C094996-000B-DE33-A610-260F9A5933A9" localFKIndex="BCDE06E5-E509-2F20-C935-A96CE47F5079" name="FK_CLIENTE_TIPO_CONTRATO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>84BB141C-35E4-A3AC-AB85-47218FE02008</importedID>
+<referredTableLongName>SYS.TIPO_CONTRATO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A2E728FA-DD5A-539F-5200-AFBB45BBADC5</referredTableID>
+<keyObject>A6644911-04F9-A97E-61A3-E3EB5F80F913</keyObject>
+<referredKeyID>A6644911-04F9-A97E-61A3-E3EB5F80F913</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TIPO_CONTRATO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

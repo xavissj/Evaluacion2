@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYS" directorySegmentName="seg_0" id="8F4A66EA-7AE0-125E-DA02-75F491B7EFD4">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:05:14 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+</UserOraclev10g>

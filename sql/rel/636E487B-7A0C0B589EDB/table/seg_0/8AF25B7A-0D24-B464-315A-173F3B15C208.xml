@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AF25B7A-0D24-B464-315A-173F3B15C208" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PRODUCTO_INVERSION_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>A71438C1-4C3C-526D-E903-141AA6B2E35D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NRO_SOLIC_PROD" id="A0EABFF1-4084-F611-4B4B-B7E8B1F95769">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>9A284605-1D28-3DC5-A6B3-9378F55C536C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_CLIENTE" id="E8D9FC98-4937-8E5E-76E6-1600FAD065ED">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>032049DC-4117-CA9F-96A6-98643312835E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D7A8CD6-70E1-3166-338D-DEC4DC26D03B" referredColumn="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLIC_PROD" id="02CA687E-80F3-F70A-DA55-1CE40AD7FD3F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>11C27D7A-6162-F66A-B339-00F051F3D7F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AHORRO_MINIMO_MENSUAL" id="F765BBC9-6E42-7230-D24A-690368B14090">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>38346567-9675-B21C-ED36-89D7AEFCFD1B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIA_PAGO_MENSUAL" id="3CAAF8A9-F02A-797A-D3AE-31B6521DB94B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>E66CCB2B-E3D1-7CEF-6EC7-2A6B9DEC3E07</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_TOTAL_AHORRADO" id="419C6210-8A50-B1CC-8D61-42A3A180C68A">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>CE52FC7C-BF13-88B8-0328-8E99BFF1B523</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PROD_INV" id="928ECE32-64AE-DF1B-E76F-934EC43FBCEC">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>FE5794F2-B14D-7408-5572-1E7B48FA8034</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A3984C9-0620-B74A-E898-E8038D359450" name="PK_PRODUCTO_INVERSION_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>6D9534EA-BF40-C420-E954-3E9D916E5B58</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0EABFF1-4084-F611-4B4B-B7E8B1F95769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9055DC69-F86C-C7EE-DF59-FE8D5788E6D1" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_PRODUCTO_INVERSION_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>907060A8-1FCF-F09B-DF10-8A5A1BA7A5FC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0EABFF1-4084-F611-4B4B-B7E8B1F95769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F17D8D-C4DB-B9BA-89BB-0DE2D6320D0B" name="FK_PRODINVCLI_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8D9FC98-4937-8E5E-76E6-1600FAD065ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F7A6FD2-39E7-75FE-33FA-BE1C59CFC1A5" name="FK_PRODINVCLI_PRODINV">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928ECE32-64AE-DF1B-E76F-934EC43FBCEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

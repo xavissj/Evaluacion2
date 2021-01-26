@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROFESION_OFICIO" directorySegmentName="seg_0" id="A98848D4-AA26-AB13-43A3-1800CAFE1BA0">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5837432-9196-A1DA-C597-4D84C908C7D2</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_PROF_OFIC" id="81FBC3E3-CF0C-69D7-20F4-32878646514B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PROF_OFIC" id="A057CFDA-CB87-D14A-BD57-1FCE0DAD32CC">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PROFESION_OFICIO" id="B2141ED7-A3C4-D41D-1122-00E4F802CED6">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PROFESION_OFICIO" id="7BDBB8D7-244B-6C0A-499C-ACA8BC812361">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<existingIndex>B2141ED7-A3C4-D41D-1122-00E4F802CED6</existingIndex>
+<indexSegment>E6533471-4B4A-D9EC-C8E9-16702D955797</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

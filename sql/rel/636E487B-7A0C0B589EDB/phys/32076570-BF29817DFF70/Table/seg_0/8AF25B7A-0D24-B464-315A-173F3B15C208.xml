@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCTO_INVERSION_CLIENTE" directorySegmentName="seg_0" id="8AF25B7A-0D24-B464-315A-173F3B15C208">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5837432-9196-A1DA-C597-4D84C908C7D2</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_SOLIC_PROD" id="02CA687E-80F3-F70A-DA55-1CE40AD7FD3F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIA_PAGO_MENSUAL" id="3CAAF8A9-F02A-797A-D3AE-31B6521DB94B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_TOTAL_AHORRADO" id="419C6210-8A50-B1CC-8D61-42A3A180C68A">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PROD_INV" id="928ECE32-64AE-DF1B-E76F-934EC43FBCEC">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NRO_SOLIC_PROD" id="A0EABFF1-4084-F611-4B4B-B7E8B1F95769">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NRO_CLIENTE" id="E8D9FC98-4937-8E5E-76E6-1600FAD065ED">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AHORRO_MINIMO_MENSUAL" id="F765BBC9-6E42-7230-D24A-690368B14090">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PRODUCTO_INVERSION_CLIENTE" id="9055DC69-F86C-C7EE-DF59-FE8D5788E6D1">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PRODINVCLI_CLIENTE" id="48F17D8D-C4DB-B9BA-89BB-0DE2D6320D0B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PRODINVCLI_PRODINV" id="4F7A6FD2-39E7-75FE-33FA-BE1C59CFC1A5">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PRODUCTO_INVERSION_CLIENTE" id="7A3984C9-0620-B74A-E898-E8038D359450">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<existingIndex>9055DC69-F86C-C7EE-DF59-FE8D5788E6D1</existingIndex>
+<indexSegment>E6533471-4B4A-D9EC-C8E9-16702D955797</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

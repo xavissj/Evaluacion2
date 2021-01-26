@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD090CBA-BD43-E35C-9B1F-049232FE9D9F" containerWithKeyObject="8AF25B7A-0D24-B464-315A-173F3B15C208" localFKIndex="4F7A6FD2-39E7-75FE-33FA-BE1C59CFC1A5" name="FK_PRODINVCLI_PRODINV">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>D787F682-D6DF-4981-8F86-B477AC2B4896</importedID>
+<referredTableLongName>SYS.PRODUCTO_INVERSION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>COD_PROD_INV</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

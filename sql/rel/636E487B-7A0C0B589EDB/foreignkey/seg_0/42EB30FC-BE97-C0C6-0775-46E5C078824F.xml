@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42EB30FC-BE97-C0C6-0775-46E5C078824F" containerWithKeyObject="869FBE26-1974-CBA0-179D-583532B1436D" localFKIndex="89A81B2D-71AB-1B7C-B3CC-9037C1B2D88F" name="FK_CREDCLI_SUCURSAL">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>9E8EFFBD-4148-9AFA-4E41-498EED2ED57A</importedID>
+<referredTableLongName>SYS.SUCURSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>ID_SUCURSAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

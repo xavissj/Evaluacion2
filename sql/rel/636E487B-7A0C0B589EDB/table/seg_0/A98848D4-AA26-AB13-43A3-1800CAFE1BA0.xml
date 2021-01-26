@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A98848D4-AA26-AB13-43A3-1800CAFE1BA0" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PROFESION_OFICIO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>E91D05F7-5820-DA2A-0487-895F821F70AD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PROF_OFIC" id="A057CFDA-CB87-D14A-BD57-1FCE0DAD32CC">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>C3DC3D8F-2B1C-A8D6-FBC3-EDE90B224D8E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROF_OFIC" id="81FBC3E3-CF0C-69D7-20F4-32878646514B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>6BEA3FAD-4248-F7D2-F6C0-0F21C79B99B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BDBB8D7-244B-6C0A-499C-ACA8BC812361" name="PK_PROFESION_OFICIO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>BD9E7DA2-6A18-626E-1BF1-1909A6B56EE1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A057CFDA-CB87-D14A-BD57-1FCE0DAD32CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2141ED7-A3C4-D41D-1122-00E4F802CED6" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_PROFESION_OFICIO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>256C3E09-0765-560A-626B-483AEFC0501B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A057CFDA-CB87-D14A-BD57-1FCE0DAD32CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

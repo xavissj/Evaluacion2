@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4D7C78D-9F2E-39F9-96FC-3887A1EDC300" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="COMUNA">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>A0825E36-8248-54E6-E437-70E1641CEDA5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_REGION" id="D1CCC2BA-7739-FC53-0CC2-68496C52D672">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>9713EB4B-3F5B-B4E2-5A51-04390367EAD0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_PROVINCIA" id="7F27655E-2C27-A265-3272-03DA37D83D1E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>618891D1-A9D0-B06D-4D81-7803A8BA3DFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_COMUNA" id="C4A48189-945C-B34D-DF80-B092880E90D4">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>6A939F71-0FF6-2097-D6D2-6D16EAC7DB6B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_COMUNA" id="E5ED56B6-8B61-4199-DA2A-67B8ABB5C455">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>7FF64805-CCA0-BB13-F771-E1CAF2467643</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2CAE07A-D836-9354-7C6A-643756D40B7A" name="PK_COMUNA">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>2431FEFB-D99A-2879-561D-EE628CE7EAE5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1CCC2BA-7739-FC53-0CC2-68496C52D672"/>
+<colUsage columnID="7F27655E-2C27-A265-3272-03DA37D83D1E"/>
+<colUsage columnID="C4A48189-945C-B34D-DF80-B092880E90D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61843F8C-028A-6D5F-28C2-84B611A66EE1" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_COMUNA">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>8AA35519-08CE-8E40-9C16-E76A931672D4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1CCC2BA-7739-FC53-0CC2-68496C52D672"/>
+<colUsage columnID="7F27655E-2C27-A265-3272-03DA37D83D1E"/>
+<colUsage columnID="C4A48189-945C-B34D-DF80-B092880E90D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEE48C21-3269-DA9C-2BBC-45545FDFB0EE" name="FK_COMUNA_PROVINCIA">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1CCC2BA-7739-FC53-0CC2-68496C52D672"/>
+<colUsage columnID="7F27655E-2C27-A265-3272-03DA37D83D1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

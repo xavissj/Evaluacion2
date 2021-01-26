@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SYS" directorySegmentName="seg_0" id="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>DA1B4632-6E77-7E52-3990-90174422FAAD</importedID>
+</SchemaObject>

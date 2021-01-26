@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTE" directorySegmentName="seg_0" id="9C094996-000B-DE33-A610-260F9A5933A9">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5837432-9196-A1DA-C597-4D84C908C7D2</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FONO_CONTACTO" id="1BD5AC35-6423-B072-45E7-A2BBCF08815F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DVRUN" id="35E9497D-29E6-2959-F277-D897D7D8B8FF">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PNOMBRE" id="36B56AEF-B4B8-DA68-C703-8211E064BEA9">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NRO_CLIENTE" id="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_REGION" id="46FD6F41-A827-10A5-6156-CEA3F8FCD46B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="49AB183E-D487-4B54-762D-349401C30F6E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PROF_OFIC" id="52972DB6-5816-5750-C8A9-7CD66666A402">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_TIPO_CONTRATO" id="549D6E24-3A54-EF97-D113-019D776A8B50">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="6F0F91AB-BDA8-7AAA-3B61-BC74979E522B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PROVINCIA" id="74519CF1-8E51-8776-1B63-CDA6C75B7A3F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SNOMBRE" id="7D34340D-F5CF-56F1-B07E-7A0F85E480B7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="B3393057-F0D8-35DC-2A82-9539E31140F9">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APMATERNO" id="DA18A355-743C-4769-2CAD-A2377EDF46AB">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_COMUNA" id="DBBB4E35-855F-C005-801D-E7E6E0A28A9E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMRUN" id="E462CFA7-CA83-D6FB-15F3-26CBF1F84083">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INSCRIPCION" id="EC428C3E-808A-C690-3176-EBF5DB129B55">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPATERNO" id="EEF6A2C8-EDD3-59F2-C22A-CBA541C0C7F7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CLIENTE" id="7A14CFD6-4B1E-424C-DC7C-DFA2C36359F1">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CLIENTE_PROFESION_OFICIO" id="2F540493-4CE8-D3DD-CAC0-8B3D1BC2F554">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CLIENTE_COMUNA" id="812A25FB-BD58-A5AB-6C78-025FEDFBF042">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CLIENTE_TIPO_CONTRATO" id="BCDE06E5-E509-2F20-C935-A96CE47F5079">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CLIENTE" id="84792771-D08D-ED43-1047-7AA311B2BF7E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<existingIndex>7A14CFD6-4B1E-424C-DC7C-DFA2C36359F1</existingIndex>
+<indexSegment>E6533471-4B4A-D9EC-C8E9-16702D955797</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

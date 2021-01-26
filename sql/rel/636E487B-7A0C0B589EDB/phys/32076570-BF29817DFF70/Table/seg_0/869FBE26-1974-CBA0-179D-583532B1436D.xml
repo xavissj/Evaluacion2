@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CREDITO_CLIENTE" directorySegmentName="seg_0" id="869FBE26-1974-CBA0-179D-583532B1436D">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5837432-9196-A1DA-C597-4D84C908C7D2</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NRO_CLIENTE" id="14CCA6FE-E614-DB7E-3609-9A16CA67390E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_CREDITO" id="2DCB9BD5-93F4-B96F-5909-47F13A21EDF7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_SOLICITADO" id="506B38E1-120D-52E0-7549-1BCA9276D220">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_SOLIC_CRED" id="692F9B0A-D39D-7E51-95B2-37C961444FB3">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NRO_SOLIC_CREDITO" id="6F5DE19F-3950-08EC-E8A5-6B8167B0F8E4">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_CUOTAS_CREDITO" id="77549F42-690A-EC3A-641C-E45B460D46B1">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_OTORGA_CRED" id="92FBB282-0D79-1C0C-96A3-05992624A851">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SUCURSAL" id="CBDA2135-EC8F-E035-C610-DBA50589F87D">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_CREDITO" id="DD5CDFD3-B680-6D75-8DD8-CE58E5755B15">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CREDITO_CLIENTE" id="22356DE6-A211-F28D-395B-8091634134FC">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CREDCLI_CREDITO" id="37F02685-96B8-C2A6-8BD8-0C26F6E2058D">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CREDCLI_SUCURSAL" id="89A81B2D-71AB-1B7C-B3CC-9037C1B2D88F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CREDCLI_CLIENTE" id="CDFEF7FD-FE22-F001-6EA9-CF233B9C1DBF">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CREDITO_CLIENTE" id="C7FC09E9-2C06-2590-25EC-DA1560F4520B">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<existingIndex>22356DE6-A211-F28D-395B-8091634134FC</existingIndex>
+<indexSegment>E6533471-4B4A-D9EC-C8E9-16702D955797</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="APORTE_A_SBIF" directorySegmentName="seg_0" id="D4C119E5-29AB-C903-3D57-9255F1F550D6">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5837432-9196-A1DA-C597-4D84C908C7D2</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_RANGO" id="1242C763-B060-5966-CAEF-A0BC75C9E119">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_CREDITO_DESDE" id="2B4DF19A-060C-DC44-7FFA-B167B4BF223C">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_CREDITO_HASTA" id="7A86B28F-D2D2-9E72-8E8F-153A8CB7AD06">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORC_ENTREGA_SBIF" id="83ED7FB2-3B13-D675-29FF-8B3227B6A152">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_APORTE_A_SIBF" id="77477B8F-F6AE-7FED-0005-521FF575615F">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<schemaObject>7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13</schemaObject>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_APORTE_A_SIBF" id="165794FE-D09A-A0A8-E0B3-E8D62C764480">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<segment>E6533471-4B4A-D9EC-C8E9-16702D955797</segment>
+<tableSpace>66B4F991-E204-03B9-C3D0-C664AA8B5B24</tableSpace>
+<existingIndex>77477B8F-F6AE-7FED-0005-521FF575615F</existingIndex>
+<indexSegment>E6533471-4B4A-D9EC-C8E9-16702D955797</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

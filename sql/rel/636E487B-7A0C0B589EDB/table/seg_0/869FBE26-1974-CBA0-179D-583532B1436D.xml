@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="869FBE26-1974-CBA0-179D-583532B1436D" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="CREDITO_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>04774FD6-D977-23D9-E48C-A544CB95BC6D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NRO_SOLIC_CREDITO" id="6F5DE19F-3950-08EC-E8A5-6B8167B0F8E4">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>D82FA352-133E-BE6A-E735-E93481A8CE28</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_CLIENTE" id="14CCA6FE-E614-DB7E-3609-9A16CA67390E">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>D6268FEA-07F5-B607-0084-827C5BB9E6A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C74CA77-455A-C470-64EE-963A816C49F2" referredColumn="3FE07D9D-C00D-EE34-B4B3-51102D7D3B30"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLIC_CRED" id="692F9B0A-D39D-7E51-95B2-37C961444FB3">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>1EF04481-D078-5A29-F8DE-0899966B7894</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_OTORGA_CRED" id="92FBB282-0D79-1C0C-96A3-05992624A851">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>8CCE2426-2BB8-BCB6-39B7-BFB2778DB824</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_SOLICITADO" id="506B38E1-120D-52E0-7549-1BCA9276D220">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>A529BD91-ABB0-B569-1B55-22AB2DDF48D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_CREDITO" id="DD5CDFD3-B680-6D75-8DD8-CE58E5755B15">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>6F7EC2C5-C3CE-7DDD-B7CC-3468275F7833</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_CUOTAS_CREDITO" id="77549F42-690A-EC3A-641C-E45B460D46B1">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>34DDEF2E-DBD8-1DF5-BF33-BED83898635C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CREDITO" id="2DCB9BD5-93F4-B96F-5909-47F13A21EDF7">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>9F3D3995-7672-849F-C3EA-00F9E00A5F66</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUCURSAL" id="CBDA2135-EC8F-E035-C610-DBA50589F87D">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>7718EA10-6E8E-E25E-DF89-E84594A73D55</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7FC09E9-2C06-2590-25EC-DA1560F4520B" name="PK_CREDITO_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>7336B962-A71D-DA50-1D29-054FB6EF392A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F5DE19F-3950-08EC-E8A5-6B8167B0F8E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22356DE6-A211-F28D-395B-8091634134FC" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_CREDITO_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>002DDAB2-5F14-33E5-50B9-128E00A46E8A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F5DE19F-3950-08EC-E8A5-6B8167B0F8E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDFEF7FD-FE22-F001-6EA9-CF233B9C1DBF" name="FK_CREDCLI_CLIENTE">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14CCA6FE-E614-DB7E-3609-9A16CA67390E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37F02685-96B8-C2A6-8BD8-0C26F6E2058D" name="FK_CREDCLI_CREDITO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DCB9BD5-93F4-B96F-5909-47F13A21EDF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89A81B2D-71AB-1B7C-B3CC-9037C1B2D88F" name="FK_CREDCLI_SUCURSAL">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBDA2135-EC8F-E035-C610-DBA50589F87D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

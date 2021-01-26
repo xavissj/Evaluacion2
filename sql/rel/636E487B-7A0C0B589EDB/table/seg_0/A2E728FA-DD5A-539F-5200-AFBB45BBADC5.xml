@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E728FA-DD5A-539F-5200-AFBB45BBADC5" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="TIPO_CONTRATO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>18D3B4E1-E163-165B-0800-5373934E8ABD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO_CONTRATO" id="A5AFFD62-9577-0620-B507-92D2881EF0C8">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>D144AB80-4FFD-ECD0-CC17-7B34126E4096</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_CONTRATO" id="DE9DDB4C-25BD-F6CF-7741-50079B26A769">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>10A71C44-2957-8B32-5976-8830229C14BE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMEDIO_RENTA" id="D8C42AB8-CEFF-82BE-0F60-D04DC1E8E260">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>5D26BDF6-A152-F358-B64F-F8E2972492C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6644911-04F9-A97E-61A3-E3EB5F80F913" name="PK_TIPO_CONTRATO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>00A10A37-9E5E-E2A7-3721-0CA734112931</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5AFFD62-9577-0620-B507-92D2881EF0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6E02F8-9655-2358-2738-C3D80A695DAB" schemaObject="7FFC16A1-8AEE-F5EC-812F-337BD0CD8B13" name="PK_TIPO_CONTRATO">
+<createdBy>javit</createdBy>
+<createdTime>2021-01-25 20:14:55 UTC</createdTime>
+<ownerDesignName>sql</ownerDesignName>
+<importedID>5087F529-1BAD-0093-1451-98B6B86AA270</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5AFFD62-9577-0620-B507-92D2881EF0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
