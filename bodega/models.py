@@ -6,4 +6,3 @@ class RegistroProducto(models.Model):
     fecha = models.CharField(max_length=8)
     cantidad = models.IntegerField()
     categoria = models.IntegerField()
-class 

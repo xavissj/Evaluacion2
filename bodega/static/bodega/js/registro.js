@@ -1,10 +1,10 @@
 
-$(function () {
+$(function registrar() {
     $('#btnRegistrar').on('click', function () {
-        var nombre, email, telefono, rut, date;
+        var nombre, email, contraseña, rut, date;
         nombre = $("#nombre").val();
         email = $("#email").val();
-        telefono = $("#telefono").val();
+        contraseña = $("#contraseña").val();
         rutEsValido = $("#rut").val();
         date = $("#date").val();
 
@@ -14,7 +14,7 @@ $(function () {
             return false;
     
         }
-        else if(telefono == ""){
+        else if(contraseña == ""){
             alert("El campo Télefono está vacio");
                 
         } 
@@ -33,7 +33,7 @@ $(function () {
         function rutEsValido(rut) {
             if (!rut || rut.trim().length < 3) return false;
             const rutLimpio = rut.replace(/[^0-9kK-]/g, "");
-        
+         
             if (rutLimpio.length < 3) return false;
         
             const split = rutLimpio.split("-");
