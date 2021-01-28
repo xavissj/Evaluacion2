@@ -6,7 +6,7 @@ $(function () {
         
 
         
-        if(username == " "){
+        if(username == ""){
             alert("Ingrese un usuario valido por favor");
             return false;
     
