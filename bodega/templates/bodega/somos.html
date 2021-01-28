@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,129 +9,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/bodega/css/estilo.css">
 
-    <title>Hello, world!</title>
-</head>
-
-<body>
-    <!-- Navbar -->
-    <div class="navbar-plantilla responsive">
+    <title>Quienes Somos</title>
+  </head>
+  <body>
+      <!-- Navbar -->
+      <div class="navbar-plantilla responsive">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img class="logotipo" src="/static/bodega/images/logoBodega.png" alt="Logo Bodegas">
+              <a class="navbar-brand" href="/">
+                <img class="logotipo" src="/static/bodega/images/logoBodega.png" alt="Logo Bodegas">
                 </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/somos">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contacto">Contáctanos</a>
-                        </li>
-                    </ul>
-
-                </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/somos">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contacto">Contactanos</a>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
         </nav>
 
-    </div>
-    <br><br>
-    <div class="container responsive">
-        <div id="map-container-google-1" class="z-depth-1-half map-container responsive" style="height: 500px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.298674305246!2d-70.68019498565396!3d-33.36326768079895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c7025c925e0f%3A0x7f2f6a657c08d14a!2sDuoc%20UC%3A%20Sede%20Plaza%20Norte!5e0!3m2!1ses!2scl!4v1611798034856!5m2!1ses!2scl"
-                width="900" height="450" frameborder="0" style="justify-content: center;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
-    <!-- main -->
-    <div class="container">
+      </div>
+      <br><br>
+      <!-- main -->
+      
 
-        <div class="card-group">
-
-            <div class="card" style="width:200px">
-                <img class="card-img-top" src="/static/bodega/images/icon1.png" alt="Card image" style="width:100px">
-                <div class="card-body">
-                    <h4 class="card-title">Xavier Bonilla</h4>
-                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-            </div>
-            <br>
-
-
-            <div class="card" style="width:200px">
-                <img class="card-img-bottom" src="/static/bodega/images/icon2.png" alt="Card image" style="width:100px">
-                <div class="card-body">
-                    <h4 class="card-title">Constanza Tobar</h4>
-                    <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-
-            </div>
-
-            <div class="card" style="width:200px">
-                <img class="card-img-bottom" src="/static/bodega/images/icon3.png" alt="Card image" style="width:100px">
-                <div class="card-body">
-                    <h4 class="card-title">Javiera Caro</h4>
-                    <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <h2>Información</h2>
-        <p></p>
-        <table class="table table-dark table-striped">
-            <thead>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Xavier</td>
-                    <td>Bonilla</td>
-                    <td>xav.bonilla@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Constanza</td>
-                    <td>Tobar</td>
-                    <td>c.tobar@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Javiera</td>
-                    <td>Caro</td>
-                    <td>jav.caro@gmail.com</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-
-    <!-- Footer-->
-    <footer class="wg-dark text-center text-lg-start">
+      <!-- Footer-->
+      <footer class="wg-dark text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(12, 12, 12, 0.2)">
-            © 2021 Autores: Constanza Tobar, Javiera Caro, Xavier Bonilla:
-
+          © 2020 Autores: Constanza Tobar, Javiera Caro, Xavier Bonilla:
+          
         </div>
         <!-- Copyright -->
-
-
-
-    </footer>
-
-
+      </footer>
+      
+    
 
 
 
@@ -149,6 +72,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
-</body>
-
+  </body>
 </html>
