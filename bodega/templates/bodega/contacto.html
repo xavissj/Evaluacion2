@@ -45,25 +45,31 @@
       
       <!-- main -->
       <main  >
-        <div class="contactanos">
-          <form id="contact_form" action="/" method="POST" enctype="multipart/form-data">
+        <div class="mjContacto">
+          <h2> Si tienes alguna duda mas especifica, no dudes en enviarnos tu pregunta! Completa el formulario y te estaremos contactando a la brevedad.</h2>
+
+
+        </div><br>
+        
+        <div >
+          <form class="contactanos" id="contact_form" action="/" method="POST" enctype="multipart/form-data">
             <div class="row">
-              <label class="required" for="name">Tu Nombre:</label><br />
-              <input id="name" class="input" name="name" type="text" value="" size="30" /><br /><br><br>
-              <span id="name_validation" class="error_message"></span>
+              <label class="required" for="name">Nombre:</label><br />
+              <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+              <span id="name_validation" class="error_message"></span><br>
             </div>
             <div class="row">
-              <label class="required" for="email">Tu email:</label><br />
+              <label class="required" for="email">Email:</label><br />
               <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-              <span id="email_validation" class="error_message"></span>
+              <span id="email_validation" class="error_message"></span><br>
             </div>
             <div class="row">
-              <label class="required" for="message">Tu Mensaje:</label><br />
+              <label class="required" for="message">Mensaje:</label><br />
               <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-              <span id="message_validation" class="error_message"></span>
+              <span id="message_validation" class="error_message"></span><br>
             </div>
               
-              <input id="submit_button" type="submit" value="Send email" />
+              <br><input id="submit_button" type="submit" value="Send email" /><br>
           </form>
 
 

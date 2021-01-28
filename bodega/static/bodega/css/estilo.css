@@ -60,6 +60,20 @@ a {
     
     
 }
+.contactanos{
+    width: 80%;
+    padding-left: 20%;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+    
+    
+}
+.mjContacto{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
 
 
 
@@ -94,5 +108,6 @@ a {
         width: 100%;
         
     }
+    
     
     
