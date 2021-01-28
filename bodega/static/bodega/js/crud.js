@@ -1,3 +1,5 @@
+
+
 $(function () {
     $('#btnAdd').on('click', function () {
         var sku, nombre, fecha, cantidad, categoria;
@@ -7,6 +9,10 @@ $(function () {
         cantidad = $("#txtCantidad").val();
         categoria = $("#txtCategoria").val();
 
+        $.post('/lista/', { sku: sku, nombre: nombre, fecha: fecha, cantidad: cantidad, categoria: categoria }, function (response) {
+            //function que se encarga de hacer algo con la respuesta del post 
+            console.log(response)
+        })
         var edit = "<a class='edit' href='JavaScript:void(0);' >Editar</a>";
         var del = "<a class='delete' href='JavaScript:void(0);'>Eliminar  </a>";
 
@@ -87,6 +93,7 @@ $(function () {
         $('#btnAdd').hide();
         $('#btnUpdate').show();
     });
+
 });
 function Clear() {
     $("#txtSku").val("");
